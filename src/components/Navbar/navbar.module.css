@@ -1,0 +1,48 @@
+.container {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    background-color: #9EF9FF;
+    z-index: 1;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.link {
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.links.active{
+    color: aqua;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 35px;
+    }
+
+    .link {
+        font-size: 18px;
+    }
+}

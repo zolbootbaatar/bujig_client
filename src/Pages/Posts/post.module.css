@@ -1,0 +1,80 @@
+.container {
+    padding-bottom: 130px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 50px;
+}
+
+.post {
+    display: flex;
+    background-color: #9EF9FF;
+    border-radius: 20px;
+    right: 0;
+}
+
+.item {
+    padding: 30px;
+    align-items: start;
+    justify-content: start;
+}
+
+.item p {
+    padding-bottom: 30px;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    width: max-content;
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+    max-width: 220px;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.button_container {
+    justify-content: start;
+    padding: 20px;
+
+}
+
+.chevButton {
+    padding-top: 100px;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    color: black;
+    /* background-color: #333; */
+    font-size: xx-large;
+}
+
+.icon:hover {
+    color: #9EF9FF;
+    font-size: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+  }
